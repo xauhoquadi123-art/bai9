@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body> <h2> Bảng cửu chương</h2>
+<script>
+    let sout = "";
+    sout = sout + "<h2 style='text-align: center;'>Bảng Nhân</h2>";
+    sout = sout + "<table border='3' width='1100' cellspacing='0' cellpadding='20'>";
+    for (let i = 1; i <= 10; i++) {
+        sout = sout + "<tr>";
+    for (let j = 1; j <= 10; j++) {
+        sout = sout + "<td>" + j + "x" + i + " = " + (j*i) + "</td>";
+    }  sout = sout + "</tr>";
+    }  sout = sout + "</table>";
+    sout = sout + "<br><br>" ;
+    sout = sout +"<h2 style='text-align: center;'>Bảng Chia</h2>";
+    sout = sout+"<table border='3' width='1100' cellspacing='0' cellpadding='20'>";
+    for (let i = 1; i <= 10; i++) {
+        sout = sout + "<tr>";
+        for (let j = 1; j <= 10; j++) {
+            sout = sout + "<td>" + (j * i) + " &divide; " + j + " = " + i + "</td>";
+        }sout = sout + "</tr>";
+    }sout = sout + "</table>";
+    document.write(sout);
+</script>
+
+</body>
+</html>
