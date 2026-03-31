@@ -1,10 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
+<style>
+    body {
+        font-family: monospace;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+</style>
 <body>
-$END$
+<script>
+  for (let hang=0;hang<=5;hang++){
+    let dong = "";
+
+    for ( let cot = 0; cot <=6; cot++){
+      if (hang == 0 &&(cot == 1 || cot == 2 || cot == 4 || cot == 5)){
+        dong = dong + "* ";
+      }else if(hang == 1 || hang ==2){
+        dong = dong + "* ";
+      }else if (hang == 3 && (cot==1 || cot==2 || cot==3 || cot==4 || cot==5)){
+        dong = dong + "* ";
+      }else if (hang == 4 && (cot==2 || cot==3 || cot==4 )){
+        dong = dong + "* ";
+      }else if (hang == 5 && cot == 3){
+        dong = dong + "* ";
+      }else {
+        dong =dong + "&nbsp;&nbsp;";
+      }
+    }document.write(dong + " <br>");
+  }
+</script>
 </body>
 </html>

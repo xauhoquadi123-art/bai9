@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+<p id="hienthi"></p>
+<script>
+let dayso = [];
+let tong = 0;
+let dem =0;
+let i =0;
+while (dem<30){
+    if (i%7 === 0){
+        dayso.push(i);
+        tong +=i;
+        dem++;
+    }i++;
+}let ketqua = "tổng của 30 số này là:" + tong;
+document.getElementById("hienthi").innerHTML = tong;
+</script>
 </body>
 </html>

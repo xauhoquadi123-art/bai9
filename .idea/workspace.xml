@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f26aea1-dcc3-411b-a874-1aa7e540218e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vonglapwhile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vonglapwhile2.html" afterDir="false" />
+    <list default="true" id="4f26aea1-dcc3-411b-a874-1aa7e540218e" name="Changes" comment="qa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30sochia7.html" beforeDir="false" afterPath="$PROJECT_DIR$/30sochia7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btap1.1.html" beforeDir="false" afterPath="$PROJECT_DIR$/btap1.1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fibonacci.html" beforeDir="false" afterPath="$PROJECT_DIR$/fibonacci.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fizzbuzz.html" beforeDir="false" afterPath="$PROJECT_DIR$/fizzbuzz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedoanso.html" beforeDir="false" afterPath="$PROJECT_DIR$/gamedoanso.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/giaithua.html" beforeDir="false" afterPath="$PROJECT_DIR$/giaithua.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hinhtraitym.html" beforeDir="false" afterPath="$PROJECT_DIR$/hinhtraitym.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indayfibonasi.html" beforeDir="false" afterPath="$PROJECT_DIR$/indayfibonasi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inhinhchunhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/inhinhchunhat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laimedelaicon.html" beforeDir="false" afterPath="$PROJECT_DIR$/laimedelaicon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltvl1.js" beforeDir="false" afterPath="$PROJECT_DIR$/ltvl1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tamgiacvuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/tamgiacvuong.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -39,10 +50,12 @@
     "JavaScript Debug.vonglapwhile.html.executor": "Run",
     "JavaScript Debug.vonglapwhile2.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "javascript.preferred.runtime.type.id": "node",
+    "last_opened_file_path": "C:/codgymTailieu/bai9",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,11 +81,52 @@
       <workItem from="1774518840729" duration="2000" />
       <workItem from="1774519130751" duration="2000" />
       <workItem from="1774527670792" duration="1568000" />
-      <workItem from="1774574741620" duration="3114000" />
+      <workItem from="1774574741620" duration="12662000" />
+      <workItem from="1774605669664" duration="1559000" />
+      <workItem from="1774618363522" duration="42000" />
+      <workItem from="1774709122134" duration="36000" />
+      <workItem from="1774833950561" duration="4161000" />
+      <workItem from="1774839963804" duration="18656000" />
+      <workItem from="1774878011115" duration="6362000" />
+      <workItem from="1774919957977" duration="662000" />
     </task>
+    <task id="LOCAL-00001" summary="qa">
+      <option name="closed" value="true" />
+      <created>1774580000363</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1774580000363</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="qa" />
+    <option name="LAST_COMMIT_MESSAGE" value="qa" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/ltvl1.js</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/fibonacci.html</url>
+          <line>23</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/indayfibonasi.html</url>
+          <line>10</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

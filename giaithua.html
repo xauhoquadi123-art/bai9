@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+<p id="adc"></p>
 </body>
+<script>
+  let tong =1;
+  for (let i=1; i<=20; i++) {
+    tong *=i;
+  }let ketqua = "giai thừa của 20 là" + tong;
+  document.getElementById("adc").innerHTML = ketqua;
+</script>
 </html>

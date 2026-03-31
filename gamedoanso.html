@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+<button onclick="nutbam()">Bấm Vào</button>
 </body>
+<script>
+    function nutbam() {
+        let khoang = +prompt("nhập khoảng số bạn muốn chơi")
+        let ketqua =  (khoang + 1);
+        for (let i = 0; i <= 3; i++) {
+            let doan = +prompt(`nhập số bạn đoán lần ${i}/3:`);
+            if (doan === ketqua) {
+                return alert("Chúc Mừng bạn đoán đúng số" + ketqua);
+            }alert(doan > ketqua ? "Số bạn đoán LỚN HƠN đáp án!" : "Số bạn đoán BÉ HƠN đáp án!");
+        }alert("Game Over! Bạn đã hết lượt. Đáp án là: " + ketqua);
+    }
+</script>
 </html>

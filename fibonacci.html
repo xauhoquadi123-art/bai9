@@ -1,10 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+<p id="hienthi"></p>
+<script>
+let n = [0 ,1];
+let sochiahetcho5 = null;
+let tong = 1
+for (let i = 2; i < 20; i++) {
+    let a = (n[i - 1] + n[i - 2]);
+    n.push(a);
+    tong +=a;
+    if (a % 5 === 0 && sochiahetcho5 === null) {
+        sochiahetcho5 = a;
+    }
+}
+    let ketQua = "20 số đầu tiên là: " + n.join(", ") + "<br><br>";
+    ketQua += "Số đầu tiên (khác 0) chia hết cho 5 là: " + sochiahetcho5 + "<br><br>";
+    ketQua +="Tổng của dãy số là: " + tong ;
+document.getElementById("hienthi").innerHTML = ketQua;
+</script>
 </body>
 </html>

@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+<p id="abc"></p>
 </body>
+<script>
+    let n= [0 ,1];
+    for (let i =2 ; i < 50; i++) {
+        let a = (n[i - 1] + n[i - 2]);
+        n.push(a);
+    }let ketQua = "50 số đầu tiên là: " + n.join(", ");
+    document.getElementById("abc").innerHTML = ketQua;
+
+</script>
 </html>
