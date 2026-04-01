@@ -5,19 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f26aea1-dcc3-411b-a874-1aa7e540218e" name="Changes" comment="qa">
+      <change afterPath="$PROJECT_DIR$/daonguoccacphantutrongmang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobancocarodongian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thaotacvoimang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thaotacvoimang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timgiatrilonnhattrongmang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timgiatritronngmang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/30sochia7.html" beforeDir="false" afterPath="$PROJECT_DIR$/30sochia7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/btap1.1.html" beforeDir="false" afterPath="$PROJECT_DIR$/btap1.1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fibonacci.html" beforeDir="false" afterPath="$PROJECT_DIR$/fibonacci.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fizzbuzz.html" beforeDir="false" afterPath="$PROJECT_DIR$/fizzbuzz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamedoanso.html" beforeDir="false" afterPath="$PROJECT_DIR$/gamedoanso.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/giaithua.html" beforeDir="false" afterPath="$PROJECT_DIR$/giaithua.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hinhtraitym.html" beforeDir="false" afterPath="$PROJECT_DIR$/hinhtraitym.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/indayfibonasi.html" beforeDir="false" afterPath="$PROJECT_DIR$/indayfibonasi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inhinhchunhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/inhinhchunhat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laimedelaicon.html" beforeDir="false" afterPath="$PROJECT_DIR$/laimedelaicon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ltvl1.js" beforeDir="false" afterPath="$PROJECT_DIR$/ltvl1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tamgiacvuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/tamgiacvuong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30sochia7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/btap1.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cuuchuong.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fibonacci.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fizzbuzz.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedoanso.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/giaithua.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hinhtraitym.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/indayfibonasi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inhinhchunhat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laimedelaicon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltvl1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/songuyento.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tamgiacvuong.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thvlfor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thvlfor2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vonglapdowhile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vonglaplongnhau.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vonglapwhile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vonglapwhile2.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +61,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.daonguoccacphantutrongmang.html.executor": "Run",
+    "JavaScript Debug.taobancocarodongian.html.executor": "Run",
+    "JavaScript Debug.thaotacvoimang.html.executor": "Run",
+    "JavaScript Debug.timgiatritronngmang.html.executor": "Run",
     "JavaScript Debug.vonglapwhile.html.executor": "Run",
     "JavaScript Debug.vonglapwhile2.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -88,7 +106,10 @@
       <workItem from="1774833950561" duration="4161000" />
       <workItem from="1774839963804" duration="18656000" />
       <workItem from="1774878011115" duration="6362000" />
-      <workItem from="1774919957977" duration="662000" />
+      <workItem from="1774919957977" duration="2916000" />
+      <workItem from="1774927591653" duration="68000" />
+      <workItem from="1774930162001" duration="650000" />
+      <workItem from="1774939956001" duration="8396000" />
     </task>
     <task id="LOCAL-00001" summary="qa">
       <option name="closed" value="true" />
@@ -107,26 +128,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="qa" />
     <option name="LAST_COMMIT_MESSAGE" value="qa" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/ltvl1.js</url>
-          <line>7</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/fibonacci.html</url>
-          <line>23</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/indayfibonasi.html</url>
-          <line>10</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
