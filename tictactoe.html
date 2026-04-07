@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>Caro game simple</h2>
+<p id="banco"></p>
+<button onclick="choico()">Change Value</button>
+<script>
+    let bangco = [['(.)', '(.)', '(.)', '(.)', '(.)'],
+        ['(.)', '(.)', '(.)', '(.)', '(.)'],
+        ['(.)', '(.)', '(.)', '(.)', '(.)'],
+        ['(.)', '(.)', '(.)', '(.)', '(.)'],
+        ['(.)', '(.)', '(.)', '(.)', '(.)'],];
+    let nguoichoi = "(X)";
+
+    function inbanco() {
+        let noidung = "";
+        for (let i = 0; i < 5; i++) {
+            for (let j = 0; j < 5; j++) {
+                noidung += bangco[i][j] + " ";
+            }
+            noidung += "<br>";
+        }
+        document.getElementById("banco").innerHTML = noidung;
+    }
+    function choico() {
+        let nhapHang = prompt("Lượt của " + nguoichoi + ". Nhập vị trí HÀNG (từ 0 đến 4):");
+        if (nhapHang !== null) {
+            let nhapCot = prompt("Lượt của " + nguoichoi + ". Nhập vị trí CỘT (từ 0 đến 4):");
+            if (nhapCot !== null) {
+                let hang = Number(nhapHang);
+                let cot = Number(nhapCot);
+                if (hang >= 0 && hang <= 4 && cot >= 0 && cot <= 4 && bangco[hang][cot] === '(.)') {
+
+                    bangco[hang][cot] = nguoichoi;
+                    inbanco();
+
+                    if (kiemtrathang() === true) {
+                        setTimeout(function () {
+                            alert("Chúc mừng! " + nguoichoi + " đã giành chiến thắng!");
+                        }, 100);
+                    } else {
+                        if (nguoichoi === "(X)") {
+                            nguoichoi = "(O)";
+                        } else {
+                            nguoichoi = "(X)";
+                        }
+                    }
+
+                } else {
+                    alert("Nước đi không hợp lệ! Vui lòng bấm nút Change Value để đánh lại.");
+                }
+            }
+        }
+    }
+    function kiemtrathang() {
+        for (let hang = 0; hang < 5; hang++) {
+            for (let cot = 0; cot < 5; cot++) {
+
+                let oGoc = bangco[hang][cot];
+                if (oGoc === "(.)") {
+                    continue;
+                }
+                if (cot <= 2) {
+                    if (oGoc === bangco[hang][cot + 1] && oGoc === bangco[hang][cot + 2]) return true;
+                }
+                if (hang <= 2) {
+                    if (oGoc === bangco[hang + 1][cot] && oGoc === bangco[hang + 2][cot]) return true;
+                }
+                if (hang <= 2 && cot <= 2) {
+                    if (oGoc === bangco[hang + 1][cot + 1] && oGoc === bangco[hang + 2][cot + 2]) return true;
+                }
+                if (hang <= 2 && cot >= 2) {
+                    if (oGoc === bangco[hang + 1][cot - 1] && oGoc === bangco[hang + 2][cot - 2]) return true;
+                }
+            }
+        }
+        return false;
+    }inbanco();
+</script>
+</body>
+</html>

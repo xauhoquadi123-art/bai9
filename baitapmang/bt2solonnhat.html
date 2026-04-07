@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mangso =[7, 14, 23, 42, 55, 68, 71, 89, 94, 100];
+    let max = mangso[0];
+    let min = mangso[0];
+    let vitri = 0;
+    let luutru = 0;
+    let tong = 0;
+    let trungbinh = 0;
+    let daonguoc = [];
+    console.log("giá trị max bằng "+max)
+    for (let i =1 ; i<mangso.length; i++){
+        console.log("Đây là phần tử ở vị trí " +i);
+        console.log("Giá trị max hiện tại là " +max)
+        if (max < mangso[i]){
+            console.log("Nếu giá trị ở vị trí "+i+" lớn hơn giá tri max")
+            max = mangso[i];
+            vitri =[i]
+            console.log("giá trị của max thay đổi thành "+ mangso[i])
+        }else {
+            console.log("Nếu giá trị ở vị trí "+i+" nhỏ hơn hơn giá tri max thì không xảy ra")
+        }
+    }document.write("giá trị lớn nhất: " + max + " vị trí "+ vitri + "<br>"  )
+    for (let a=1;a<mangso.length;a++){
+        if (min > mangso[a]){
+            min = mangso[a];
+            luutru = a
+        }
+    }
+    document.write("giá trị nhỏ nhất: " + min + " vị trí "+ luutru + "<br>")
+    for (let j =0 ;j<mangso.length;j++) {
+        tong += mangso[j];
+        console.log(tong)
+    }
+    trungbinh=tong/mangso.length;
+    document.write("trung bình tổng của hàm là: "+trungbinh+"<br>")
+   for (let b=mangso.length-1;b>=0;b--){
+       console.log("mảng số b"+mangso[b]);
+       daonguoc.push(mangso[b])
+       console.log("giá trị đảo ngược"+daonguoc)
+   }
+   document.write("mảng đảo ngược là: "+daonguoc + "<br>")
+let mangne=[15, -42, 7, -89, 34, -12, 3, 56, -91, 23, -5, 78, -21, 67, -8, 90, -45, 33, -11, 50];
+let nguyenam=0;
+let nguyenduong=0;
+   for (let d=0;d<mangne.length;d++){
+       if (mangne[d]<0){
+          nguyenam=nguyenam+1;
+       }else{
+           nguyenduong=nguyenduong+1;
+       }
+   }document.write("nguyên âm: "+nguyenam+"<br>")
+    document.write("nguyên dương: "+ nguyenduong + "<br>")
+    let mang=[5, -12, 8, 130, 44, 7, 91, 22, -33, 50];
+        for (let i=0; i<mang.length;i++){
+            for (let j = i+1 ;j<mang.length;j++){
+             if (mang[i]<mang[j]){
+                 let luutru = mang[i];
+                 mang[i]=mang[j];
+                 mang[j]=luutru;
+             }
+            }
+        }document.write("mảng được xếp theo thứ tự giảm dần là: "+mang+"<br>")
+
+    let a = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+    let b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    let c = [];
+    for (let g=0;g<b.length;g++) {
+        c.push(b[g])
+    }
+    for (let h=0;h<a.length;h++){
+        c.push(a[h])
+    }document.write("mảng b và a ném vào c là:"+c)
+
+
+</script>
+</body>
+</html>

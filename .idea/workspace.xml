@@ -5,33 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f26aea1-dcc3-411b-a874-1aa7e540218e" name="Changes" comment="qa">
-      <change afterPath="$PROJECT_DIR$/daonguoccacphantutrongmang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taobancocarodongian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thaotacvoimang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thaotacvoimang.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timgiatrilonnhattrongmang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timgiatritronngmang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapmang/bt110songuyen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapmang/bt2solonnhat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapmang/chendaugiuasochan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapmang/chuyendoichu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapmang/noiphantuthanhchuoi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bt6timv.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mang2chieu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mang2chieu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tictactoe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tudien.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/30sochia7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/btap1.1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cuuchuong.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fibonacci.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fizzbuzz.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamedoanso.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/giaithua.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hinhtraitym.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/indayfibonasi.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inhinhchunhat.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laimedelaicon.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ltvl1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/songuyento.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tamgiacvuong.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thvlfor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thvlfor2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vonglapdowhile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vonglaplongnhau.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vonglapwhile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vonglapwhile2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/daonguoccacphantutrongmang.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taobancocarodongian.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thaotacvoimang.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thaotacvoimang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/timgiatrilonnhattrongmang.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/timgiatritronngmang.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -61,12 +51,20 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.bt110songuyen.html.executor": "Run",
+    "JavaScript Debug.bt2solonnhat.html.executor": "Run",
+    "JavaScript Debug.bt6timv.html.executor": "Run",
     "JavaScript Debug.daonguoccacphantutrongmang.html.executor": "Run",
+    "JavaScript Debug.mang2chieu.html.executor": "Run",
     "JavaScript Debug.taobancocarodongian.html.executor": "Run",
     "JavaScript Debug.thaotacvoimang.html.executor": "Run",
+    "JavaScript Debug.tictactoe.html.executor": "Run",
     "JavaScript Debug.timgiatritronngmang.html.executor": "Run",
+    "JavaScript Debug.tudien.html.executor": "Run",
     "JavaScript Debug.vonglapwhile.html.executor": "Run",
     "JavaScript Debug.vonglapwhile2.html.executor": "Run",
+    "Node.js.mang2chieu.js.executor": "Run",
+    "Node.js.vv.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -110,6 +108,15 @@
       <workItem from="1774927591653" duration="68000" />
       <workItem from="1774930162001" duration="650000" />
       <workItem from="1774939956001" duration="8396000" />
+      <workItem from="1775006546183" duration="2000" />
+      <workItem from="1775007401731" duration="9051000" />
+      <workItem from="1775230388468" duration="5212000" />
+      <workItem from="1775320359295" duration="4880000" />
+      <workItem from="1775395718214" duration="5784000" />
+      <workItem from="1775440135251" duration="14919000" />
+      <workItem from="1775458078589" duration="12290000" />
+      <workItem from="1775481660538" duration="10191000" />
+      <workItem from="1775524529362" duration="8913000" />
     </task>
     <task id="LOCAL-00001" summary="qa">
       <option name="closed" value="true" />

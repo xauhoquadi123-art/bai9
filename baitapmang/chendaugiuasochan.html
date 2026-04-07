@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+let chuoi =  "025468";
+let ketqua =[0] ;
+for (let i=1; i< chuoi.length; i++){
+if (chuoi[i-1]%2===0 && chuoi[i]%2===0){
+   ketqua += "-" + chuoi[i];
+}else {
+    ketqua += chuoi[i];
+}
+}document.write(ketqua);
+</script>
+</body>
+</html>

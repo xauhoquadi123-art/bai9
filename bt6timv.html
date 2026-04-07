@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mang=[4, -12, 56, 78, -3, 0, 99, 21, -45, 10];
+    let v = +prompt("nhập vào phần tử số nguyên V");
+    for (let i = 0; i <mang.length; i++){
+        if (v === mang[i]){
+            alert("V is in the array")
+            break;
+        }else{
+            alert("V is not in the array")
+            break;
+        }
+    }
+    let phantu=[12, -45, 7, 88, -2, 0, 34, -19, 56, 9];
+   let timthay = false;
+    let a = +prompt("phần tử số nguyên A");
+    for (let i = 0; i < phantu.length; i++){
+        if (a === phantu[i]){
+            phantu.splice(i, 1)
+            phantu.push(0);
+            console.log("hiện lên"+phantu);
+            timthay=true;
+            break;
+        } else{
+
+            timthay=false;
+
+        }
+    }
+    if (timthay===true){
+        document.write(phantu)
+    }else {
+        document.write("nhập sai rồi bạn ơi")
+    }
+</script>
+</body>
+</html>

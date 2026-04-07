@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="nhap" placeholder="nhập từ  tiếng anh">
+<button onclick="timkiem()">Dịch</button>
+<p id="ketquadich">Kết quả hiện thị ở đây</p>
+<script>
+    let tienganh = ["Dog", "Chicken", "Pig", "Cow"];
+    let tiengviet = ["Chó", "Gà", "Lợn", "Bò"];
+
+    function timkiem() {
+        let tu_can_tim = document.getElementById("nhap").value;
+        let da_tim_thay = false;
+        for (let i = 0; i < tienganh.length; i++) {
+            if (tu_can_tim === tienganh[i]) {
+                document.getElementById("ketquadich").innerHTML = tiengviet[i]
+                da_tim_thay = true;
+                break;
+            }
+
+        }if (da_tim_thay === false){
+            document.getElementById("ketquadich").innerHTML = "không tìm thấy";
+        }
+    }
+</script>
+</body>
+</html>
