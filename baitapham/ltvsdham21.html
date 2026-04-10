@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="nhap" type="number" placeholder="Nhập vào bán kính">
+<button onclick="chay()">Bấm</button>
+<p id="hienthi"></p>
+<script>
+    function chay() {
+        let bankinh = document.getElementById("nhap").value;
+        let ketquas = dienTich(bankinh)
+        let ketquac = chuvi(bankinh)
+        document.getElementById("hienthi").innerHTML = "Diện tích hình tròn là: " + ketquas.toFixed(2) + "<br>" + "Chu vi hình tròn là: " + ketquac.toFixed(2);
+    }
+
+    function dienTich(r) {
+        return r * r * Math.PI;
+
+    }
+
+    function chuvi(r) {
+        return 2 * Math.PI * r;
+    }
+</script>
+</body>
+</html>

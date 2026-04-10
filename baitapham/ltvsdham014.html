@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let ngoisao = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus'];
+    let chomsao = ['Ursa Minor', 'Taurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo'];
+
+    function timchomsao(tukhoa) {
+        let viTriCuaNgoiSao = 0;
+        let coOTrongMang = false;
+        for (let i = 0; i < ngoisao.length; i++) {
+            if (ngoisao[i] === tukhoa) {
+                viTriCuaNgoiSao = i;
+                coOTrongMang = true;
+                break
+            } else {
+            }
+        }
+        if (coOTrongMang === false) {
+            document.write("Khong tim thay o trong mang <br>")
+        } else {
+            document.write(chomsao[viTriCuaNgoiSao])
+        }
+
+
+    }
+
+    let nhap = prompt("Enter: ")
+    timchomsao(nhap)
+</script>
+</body>
+</html>

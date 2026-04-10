@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2> Add New Product</h2> <br>
+<input id="sanpham" placeholder="Tên sản phẩm">
+<button id="nutThem" onclick="bamvao()">Thêm</button>
+<button id="nutCapNhat" style="display: none;" onclick="luuCapNhat()">Cập nhật</button>
+<table border="1" cellspacing="0">
+    <tbody id="them">
+    </tbody>
+    <script>
+        let mangSanPham = ["Nokia", "Samsung", "Iphone"];
+        let viTriDangSua = -1;
+
+        function hienThiBang() {
+            let noiDungBang = "";
+            for (let i = 0; i < mangSanPham.length; i++) {
+                noiDungBang += `
+            <tr>
+            <td>${i + 1}</td>
+            <td>${mangSanPham[i]}</td>
+            <td>
+            <button onclick="hamSua(${i})">Sửa</button>
+            <button onclick="hamXoa(${i})">Xóa</button>
+            </td>
+            </tr>
+            `;
+            }
+            document.getElementById("them").innerHTML = noiDungBang;
+        }
+
+        function bamvao() {
+            let tenMoi = 0;
+            tenMoi = document.getElementById("sanpham").value;
+            if (tenMoi === "") {
+                alert("Bạn chưa nhập tên")
+
+            } else {
+                mangSanPham.push(tenMoi)
+                hienThiBang();
+                document.getElementById("sanpham").value = "";
+            }
+        }
+
+        function hamXoa(vitri) {
+            if (confirm("Bạn có chắc muốn xóa không?")) {
+                mangSanPham.splice(vitri, 1);
+                hienThiBang();
+            }
+        }
+
+        function hamSua(vitri) {
+            document.getElementById("sanpham").value = mangSanPham[vitri];
+            viTriDangSua = vitri;
+            document.getElementById("nutThem").style.display = "none";
+            document.getElementById("nutCapNhat").style.display = "inline-block";
+        }function luuCapNhat(){
+            let bienMoi = document.getElementById("sanpham").value;
+            mangSanPham[viTriDangSua] = bienMoi;
+            viTriDangSua=-1;
+            document.getElementById("sanpham").value = "";
+            document.getElementById("nutThem").style.display = "inline-block";
+            document.getElementById("nutCapNhat").style.display = "none";
+            hienThiBang();
+
+        }hienThiBang()
+
+
+
+    </script>
+</table>
+</body>
+</html>

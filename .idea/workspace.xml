@@ -5,23 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f26aea1-dcc3-411b-a874-1aa7e540218e" name="Changes" comment="qa">
-      <change afterPath="$PROJECT_DIR$/baitapmang/bt110songuyen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitapmang/bt2solonnhat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitapmang/chendaugiuasochan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitapmang/chuyendoichu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitapmang/noiphantuthanhchuoi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bt6timv.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mang2chieu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mang2chieu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tictactoe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tudien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapham/btsonguyento.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapham/chuyendoigiuafeetvameters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapham/kiemtradoixung.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapham/ltvsdham01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapham/ltvsdham011.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapham/ltvsdham012.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapham/ltvsdham013.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapham/ltvsdham014.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapham/ltvsdham2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapham/ltvsdham21.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapham/ltvsdham22.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapham/ltvsdham23.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapham/ltvsdham24.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapham/ltvsdham25.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapham/ltvsdham26.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapham/ltvsdham27.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapham/ltvsdham28.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitapham/ungdungquanlysanpham.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanhham/chuyendoinhietdo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanhham/taovagoiham.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanhham/timgiatrinhonhatcuamang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daonguoccacphantutrongmang.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taobancocarodongian.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thaotacvoimang.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thaotacvoimang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timgiatrilonnhattrongmang.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/timgiatritronngmang.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bt6timv.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mang2chieu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mang2chieu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tictactoe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tudien.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -48,38 +58,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.bt110songuyen.html.executor": "Run",
-    "JavaScript Debug.bt2solonnhat.html.executor": "Run",
-    "JavaScript Debug.bt6timv.html.executor": "Run",
-    "JavaScript Debug.daonguoccacphantutrongmang.html.executor": "Run",
-    "JavaScript Debug.mang2chieu.html.executor": "Run",
-    "JavaScript Debug.taobancocarodongian.html.executor": "Run",
-    "JavaScript Debug.thaotacvoimang.html.executor": "Run",
-    "JavaScript Debug.tictactoe.html.executor": "Run",
-    "JavaScript Debug.timgiatritronngmang.html.executor": "Run",
-    "JavaScript Debug.tudien.html.executor": "Run",
-    "JavaScript Debug.vonglapwhile.html.executor": "Run",
-    "JavaScript Debug.vonglapwhile2.html.executor": "Run",
-    "Node.js.mang2chieu.js.executor": "Run",
-    "Node.js.vv.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "main",
-    "javascript.preferred.runtime.type.id": "node",
-    "last_opened_file_path": "C:/codgymTailieu/bai9",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.bt110songuyen.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bt2solonnhat.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.bt6timv.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.btsonguyento.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.chuyendoigiuafeetvameters.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.daonguoccacphantutrongmang.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ltvsdham011.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ltvsdham012.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ltvsdham013.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ltvsdham2.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ltvsdham21.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ltvsdham22.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ltvsdham23.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ltvsdham24.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ltvsdham25.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ltvsdham26.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ltvsdham27.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ltvsdham28.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.mang2chieu.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.taobancocarodongian.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.taovagoiham.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.thaotacvoimang.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.tictactoe.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.timgiatrinhonhatcuamang.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.timgiatritronngmang.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.tudien.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.ungdungquanlysanpham.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.vonglapwhile.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.vonglapwhile2.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.mang2chieu.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.vv.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/codgymTailieu/bai9&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;consents&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\codgymTailieu\bai9\thuchanhham" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -116,7 +149,18 @@
       <workItem from="1775440135251" duration="14919000" />
       <workItem from="1775458078589" duration="12290000" />
       <workItem from="1775481660538" duration="10191000" />
-      <workItem from="1775524529362" duration="8913000" />
+      <workItem from="1775524529362" duration="10216000" />
+      <workItem from="1775555502470" duration="2028000" />
+      <workItem from="1775567126758" duration="3324000" />
+      <workItem from="1775611031140" duration="69000" />
+      <workItem from="1775611108536" duration="13000" />
+      <workItem from="1775611129209" duration="14000" />
+      <workItem from="1775611155377" duration="118000" />
+      <workItem from="1775611283222" duration="363000" />
+      <workItem from="1775611657470" duration="22197000" />
+      <workItem from="1775698960623" duration="22708000" />
+      <workItem from="1775741977100" duration="7809000" />
+      <workItem from="1775783847853" duration="2145000" />
     </task>
     <task id="LOCAL-00001" summary="qa">
       <option name="closed" value="true" />

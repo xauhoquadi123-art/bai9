@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="nhap">
+<button onclick="Giatri()">Chạy</button>
+<p id="hienthi"></p>
+<script>
+    function tangGiatri(a) {
+        return a * a;
+    }
+    function Giatri() {
+        giatriNhap = +document.getElementById("nhap").value;
+        let ketQua = tangGiatri(giatriNhap);
+        document.getElementById("hienthi").innerHTML=ketQua;
+    }
+</script>
+</body>
+</html>

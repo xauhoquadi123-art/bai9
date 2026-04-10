@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let nhapvao=prompt("nhập vào đây");
+  function isPalindrome(s){
+    if (s.length<=1){
+      return true;
+    }let firstChar = s[0];
+    let lastChar = s[s.length-1];
+    if (firstChar !== lastChar){
+      return false;
+    }let chuoiCon = s.substr(1, s.length-2);
+    return isPalindrome(chuoiCon);
+  }let ketqua=isPalindrome(nhapvao)
+  alert(ketqua)
+</script>
+</body>
+</html>

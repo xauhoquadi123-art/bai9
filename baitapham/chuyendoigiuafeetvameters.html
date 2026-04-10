@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function footToMeter(foot) {
+        let meter = foot * 0.305;
+        return meter;
+    }
+
+    let inputfoot = +prompt("nhập foot vào");
+    footToMeter(inputfoot)
+    alert(inputfoot  +" foot chuyển đổi sang meter là: " + footToMeter(inputfoot))
+
+    function meterToFoot(meter) {
+        let foot = meter * 3.279
+        return foot;
+    }
+
+    let inputmeter = +prompt("nhập meter vào")
+    meterToFoot(inputmeter);
+    alert(inputmeter+ " meter chuyển đổi sang foot là: " +meterToFoot(inputmeter));
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="nhapvao" placeholder="Tham số thứ nhât"> <br>
+<input id="chonso" placeholder="Tham số thứ hai"> <br>
+<button onclick="bamVao()">Chạy</button>
+<p id="hienthi"></p>
+<script>
+    function bamVao() {
+        let Thunhat = +document.getElementById("nhapvao",).value;
+        let Thuhai = +document.getElementById("chonso",).value;
+        let ketqua = chonBua(Thunhat,Thuhai);
+        document.getElementById("hienthi").innerHTML = ketqua;
+
+    }
+
+    function chonBua(a, b) {
+        if (a <= b) {
+            return a + b
+        }else {
+         return(  " Tham số thứ nhất lớn hơn tham số thứ hai ")
+        }
+    }
+
+</script>
+</body>
+</html>

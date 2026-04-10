@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let lanmot = +prompt("nhập vào lần một");
+    let lanhai = +prompt("nhập vào lần hai");
+    let lanba = +prompt("nhập vào lần ba");
+
+
+    function songuyen(lanmot, lanhai, lanba) {
+        if (lanmot < lanhai && lanmot < lanba) {
+            return lanmot;
+        } else if (lanhai < lanba) {
+            return lanhai;
+        } else {
+            return lanba;
+        }
+    }
+
+    let sonhonhat = songuyen(lanmot, lanhai, lanba);
+    alert("số nhỏ nhất là: " + sonhonhat)
+
+</script>
+</body>
+</html>

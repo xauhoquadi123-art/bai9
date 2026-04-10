@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function isPrime(number) {
+
+        if (number < 2) {
+            alert("không phải số nguyên tố")
+            return;
+        }
+        for (let i = 2; i < number; i++) {
+            if (number % i === 0) {
+                alert("không phải số nguyên tố")
+                return;
+            }
+        }
+        alert("là số nguyên tố")
+    }
+
+    isPrime(+prompt("nhập vào"));
+
+
+</script>
+</body>
+</html>
