@@ -4,34 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f26aea1-dcc3-411b-a874-1aa7e540218e" name="Changes" comment="qa">
-      <change afterPath="$PROJECT_DIR$/baitapham/btsonguyento.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitapham/chuyendoigiuafeetvameters.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitapham/kiemtradoixung.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitapham/ltvsdham01.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitapham/ltvsdham011.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitapham/ltvsdham012.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitapham/ltvsdham013.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitapham/ltvsdham014.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitapham/ltvsdham2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitapham/ltvsdham21.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitapham/ltvsdham22.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitapham/ltvsdham23.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitapham/ltvsdham24.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitapham/ltvsdham25.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitapham/ltvsdham26.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitapham/ltvsdham27.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitapham/ltvsdham28.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitapham/ungdungquanlysanpham.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thuchanhham/chuyendoinhietdo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thuchanhham/taovagoiham.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thuchanhham/timgiatrinhonhatcuamang.html" afterDir="false" />
+    <list default="true" id="784d8a5c-c718-4791-8200-606965552262" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/baitaplopvadoituong/Temperature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitaplopvadoituong/adamvaeva.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitaplopvadoituong/adamvaeva.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitaplopvadoituong/cocaro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitaplopvadoituong/cocaro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitaplopvadoituong/congtacvabongden.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitaplopvadoituong/gamedongiandichuyendoituong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitaplopvadoituong/gamedongiandichuyendoituong.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitaplopvadoituong/khientivi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitaplopvadoituong/meoanchuot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitaplopvadoituong/meoanchuot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitaplopvadoituong/soc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitaplopvadoituong/xaydunglopmotadienthoai.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitaplopvadoituong/xaydunglopmotadienthoai.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/baitaplopvadoituong/xaydunglopmotahinhchunhat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanhlopvadoituong/funnycỉcles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanhlopvadoituong/hoatdongcuadenpin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanhlopvadoituong/xaydunglopdate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thuchanhlopvadoituong/xaydunglophinhtron.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bt6timv.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mang2chieu.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mang2chieu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tictactoe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tudien.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +42,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 1
+  &quot;associatedIndex&quot;: 7
 }</component>
-  <component name="ProjectId" id="3BThCLLufjEK7LgcCZV3JDFNxM7" />
+  <component name="ProjectId" id="3CAY4ENKX0joBLiRF7Vl3QRXvJT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -61,58 +56,34 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.bt110songuyen.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.bt2solonnhat.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.bt6timv.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.btsonguyento.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.chuyendoigiuafeetvameters.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.daonguoccacphantutrongmang.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.ltvsdham011.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.ltvsdham012.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.ltvsdham013.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.ltvsdham2.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.ltvsdham21.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.ltvsdham22.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.ltvsdham23.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.ltvsdham24.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.ltvsdham25.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.ltvsdham26.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.ltvsdham27.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.ltvsdham28.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.mang2chieu.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.taobancocarodongian.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.taovagoiham.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.thaotacvoimang.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.tictactoe.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.timgiatrinhonhatcuamang.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.timgiatritronngmang.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.tudien.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.ungdungquanlysanpham.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.vonglapwhile.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.vonglapwhile2.html.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.mang2chieu.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.vv.js.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.Temperature.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.adamvaeva.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.cocaro.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.congtacvabongden.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.funnycỉcles.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.gamedongiandichuyendoituong.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.khientivi.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.meoanchuot.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.xaydunglopdate.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.xaydunglophinhtron.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.xaydunglopmotadienthoai.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.xaydunglopmotahinhchunhat.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.adamvaeva.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.cocaro.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.gamedongiandichuyendoituong.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.xaydunglopmotadienthoai.js.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/codgymTailieu/bai9&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;consents&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\codgymTailieu\bai9\thuchanhham" />
-    </key>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -122,62 +93,40 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4f26aea1-dcc3-411b-a874-1aa7e540218e" name="Changes" comment="" />
-      <created>1774518839529</created>
+      <changelist id="784d8a5c-c718-4791-8200-606965552262" name="Changes" comment="" />
+      <created>1775829650275</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1774518839529</updated>
-      <workItem from="1774518840729" duration="2000" />
-      <workItem from="1774519130751" duration="2000" />
-      <workItem from="1774527670792" duration="1568000" />
-      <workItem from="1774574741620" duration="12662000" />
-      <workItem from="1774605669664" duration="1559000" />
-      <workItem from="1774618363522" duration="42000" />
-      <workItem from="1774709122134" duration="36000" />
-      <workItem from="1774833950561" duration="4161000" />
-      <workItem from="1774839963804" duration="18656000" />
-      <workItem from="1774878011115" duration="6362000" />
-      <workItem from="1774919957977" duration="2916000" />
-      <workItem from="1774927591653" duration="68000" />
-      <workItem from="1774930162001" duration="650000" />
-      <workItem from="1774939956001" duration="8396000" />
-      <workItem from="1775006546183" duration="2000" />
-      <workItem from="1775007401731" duration="9051000" />
-      <workItem from="1775230388468" duration="5212000" />
-      <workItem from="1775320359295" duration="4880000" />
-      <workItem from="1775395718214" duration="5784000" />
-      <workItem from="1775440135251" duration="14919000" />
-      <workItem from="1775458078589" duration="12290000" />
-      <workItem from="1775481660538" duration="10191000" />
-      <workItem from="1775524529362" duration="10216000" />
-      <workItem from="1775555502470" duration="2028000" />
-      <workItem from="1775567126758" duration="3324000" />
-      <workItem from="1775611031140" duration="69000" />
-      <workItem from="1775611108536" duration="13000" />
-      <workItem from="1775611129209" duration="14000" />
-      <workItem from="1775611155377" duration="118000" />
-      <workItem from="1775611283222" duration="363000" />
-      <workItem from="1775611657470" duration="22197000" />
-      <workItem from="1775698960623" duration="22708000" />
-      <workItem from="1775741977100" duration="7809000" />
-      <workItem from="1775783847853" duration="2145000" />
+      <updated>1775829650275</updated>
+      <workItem from="1775829651493" duration="3000" />
+      <workItem from="1775830515940" duration="1000" />
+      <workItem from="1775884061919" duration="4129000" />
+      <workItem from="1776042300837" duration="25863000" />
+      <workItem from="1776089215807" duration="990000" />
+      <workItem from="1776128978051" duration="20208000" />
+      <workItem from="1776215844658" duration="25356000" />
+      <workItem from="1776312245796" duration="1000" />
+      <workItem from="1776312584750" duration="1158000" />
     </task>
-    <task id="LOCAL-00001" summary="qa">
-      <option name="closed" value="true" />
-      <created>1774580000363</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1774580000363</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="qa" />
-    <option name="LAST_COMMIT_MESSAGE" value="qa" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/baitaplopvadoituong/xaydunglopmotadienthoai.js</url>
+          <line>78</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/thuchanhlopvadoituong/hoatdongcuadenpin.html</url>
+          <line>66</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

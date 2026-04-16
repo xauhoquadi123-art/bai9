@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mô phỏng Điện thoại</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-top: 50px;
+            background-color: #f0f2f5;
+        }
+        .phone {
+            width: 300px;
+            background-color: white;
+            border: 2px solid #333;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        h2 {
+            text-align: center;
+            margin-top: 0;
+        }
+        .screen {
+            background-color: #e9ecef;
+            min-height: 150px;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 15px;
+            font-size: 14px;
+            overflow-y: auto;
+        }
+        .status {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #555;
+        }
+        textarea {
+            width: 100%;
+            height: 60px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+            padding: 5px;
+            resize: none;
+        }
+        button {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 5px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            font-weight: bold;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .btn-power { background-color: #dc3545; }
+        .btn-power:hover { background-color: #c82333; }
+        .btn-charge { background-color: #28a745; }
+        .btn-charge:hover { background-color: #218838; }
+    </style>
+</head>
+<body>
+
+<div class="phone">
+    <h2>Nokia</h2>
+    <div class="status">
+        <span id="nokia-power">Trạng thái: Bật</span>
+        <span id="nokia-battery">Pin: 100%</span>
+    </div>
+    <div class="screen" id="nokia-screen">
+    </div>
+
+    <textarea id="nokia-input" placeholder="Soạn tin nhắn..."></textarea>
+
+    <button onclick="uiSendMsg('nokia')">Gửi tin nhắn cho Iphone</button>
+    <button onclick="uiReadInbox('nokia')">Xem Hộp thư đến</button>
+    <button onclick="uiReadSent('nokia')">Xem Thư đã gửi</button>
+    <button class="btn-charge" onclick="uiCharge('nokia')">Sạc Pin</button>
+    <button class="btn-power" onclick="uiTogglePower('nokia')">Bật/Tắt Nguồn</button>
+</div>
+
+<div class="phone">
+    <h2>Iphone</h2>
+    <div class="status">
+        <span id="iphone-power">Trạng thái: Bật</span>
+        <span id="iphone-battery">Pin: 100%</span>
+    </div>
+    <div class="screen" id="iphone-screen">
+    </div>
+
+    <textarea id="iphone-input" placeholder="Soạn tin nhắn..."></textarea>
+
+    <button onclick="uiSendMsg('iphone')">Gửi tin nhắn cho Nokia</button>
+    <button onclick="uiReadInbox('iphone')">Xem Hộp thư đến</button>
+    <button onclick="uiReadSent('iphone')">Xem Thư đã gửi</button>
+    <button class="btn-charge" onclick="uiCharge('iphone')">Sạc Pin</button>
+    <button class="btn-power" onclick="uiTogglePower('iphone')">Bật/Tắt Nguồn</button>
+</div>
+
+<script src="xaydunglopmotadienthoai.js"></script>
+</body>
+</html>

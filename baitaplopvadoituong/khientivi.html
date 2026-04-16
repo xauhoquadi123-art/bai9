@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  class Remote {
+    constructor(ma) {
+      this.ma = ma;
+    }chuyenkenh(number){
+      this.ma.chuyenkenh(number)
+    }
+    amluong(number){
+      this.ma.amluong(number);
+    }
+  }
+  class Tivi{
+    constructor(kenh, amluonght){
+      this.kenh = kenh;
+      this.amluonght = amluonght;
+      this.trangthai = true;
+    }chuyenkenh(kenh){
+      this.kenh = kenh;
+    }
+    amluong(amluonght){
+      this.amluonght = amluonght;
+    }
+  }
+  let samsungTivi = new Tivi(7,20)
+  let dk = new Remote(samsungTivi)
+  dk.chuyenkenh(9);
+  dk.amluong(10)
+  alert("kênh hiện tại là: "+ samsungTivi.kenh + " âm lượng hiện tại là: "+ samsungTivi.amluonght);
+</script>
+</body>
+</html>

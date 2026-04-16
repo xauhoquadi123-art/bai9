@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="hienthi"></p>
+<script>
+    class Temperature {constructor(C){
+
+        if (C < -273){
+            alert("số quá nhỏ");
+        }else {this.celsius=C
+        }
+    }Fahrenheit(){
+        return this.celsius * 1.8 + 32
+    }Kelvin(){
+        return this.celsius + 273.15
+    }
+    } let Moi = new Temperature(25)
+        document.getElementById("hienthi").innerHTML= "Độ C sang độ F là "+Moi.Fahrenheit()+"<br>"+" Độ C sang độ K là: "+Moi.Kelvin();
+
+
+
+</script>
+</body>
+</html>
